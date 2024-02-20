@@ -163,7 +163,7 @@ export function listObjects(
     setTimeout(() => {
       if (!resolved)
         reject(new Error("list objects no result after 10 seconds"));
-    }, 10000);
+    }, 5000);
   });
 }
 
